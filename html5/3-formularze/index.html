@@ -12,14 +12,22 @@
     <!--input:submit[wyślij]-->
     <div>
         <form action="https://formspree.io/your@email.com" method="POST">
-            Imię<input type="text" name="imie" id="id-imie" placeholder="Podaj imię" required><br>
-            Nazwisko<input type="text" name="nazwisko" id="id-nazwisko" placeholder="Podaj nazwisko" required><br>
-            E-mail <input type="email" name="mail" id="id-mail" placeholder="Podaj email" required><br>
-            Numer telefonu<input type="number" name="numer" id="id-numer" placeholder="Podaj email" required><br><br>
+            <label for="id-imie">Imię</label>
+            <input type="text" name="imie" id="id-imie" placeholder="Podaj imię" required><br>
+            
+            <label for="id-nazwisko">Nazwisko</label>
+            <input type="text" name="nazwisko" id="id-nazwisko" placeholder="Podaj nazwisko" required><br>
+            
+            <label for="id-mail">E-mail</label>
+            <input type="email" name="mail" id="id-mail" placeholder="Podaj email" required><br>
+            
+            <label for="id-number">Numer telefonu</label>
+            <input type="number" name="numer" id="id-numer" placeholder="Podaj numer telefonu" required><br><br>
 
-            <input type="radio" name="gender">Mężczyzna <br>
-            <input type="radio" name="gender">Kobieta <br><br>
-            Wybierz kraj:<br>
+            <input type="radio" name="gender"><label for="gender">Mężczyzna</label><br>
+            <input type="radio" name="gender"><label for="gender">Kobieta</label><br><br>
+            
+            <label for="select">Wybierz kraj:</label><br>
             <select name="select">
                 <option value="value1">Polska</option>
                 <option value="value2" selected>Wielka Brytania</option>
