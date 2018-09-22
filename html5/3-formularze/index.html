@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
 </head>
-<body>
-    <!--input [submit]-->
 
-<input type="submit" value="Wyślij"/>
+<body>
+
+    <!--input:submit-->
+    <!--input:submit[wyślij]-->
+    <div>
+        <form action="https://formspree.io/your@email.com"
+      method="POST">
+            Imię<input type="text" name="imie" id="id-imie" placeholder="Podaj imię" required><br>
+            Nazwisko<input type="text" name="nazwisko" id="id-nazwisko" placeholder="Podaj nazwisko" required><br>
+            E-mail <input type="email" name="mail" id="id-mail" placeholder="Podaj email" required><br>
+            Numer telefonu<input type="number" name="numer" id="id-numer" placeholder="Podaj email" required><br><br>
+
+            <input type="radio" name="gender">Mężczyzna <br>
+            <input type="radio" name="gender">Kobieta <br><br>
+            Wybierz kraj:<br>
+            <select name="select">
+                <option value="value1">Polska</option>
+                <option value="value2" selected>Wielka Brytania</option>
+                <option value="value3">Irlandia</option>
+            </select><br><br>
+
+            <textarea name="jakistekst" id="id-jakistekst" cols="30" rows="10" placeholder="Wpisz wiadomość..." required></textarea><br>
+            <input type= "checkbox" name="agreement" required>Nie jestem robotem/Jestem człowiekiem<br><br>
+            <input type="submit" value="Wyślij" /><br><br>
+        </form>
+    </div>
 </body>
+
 </html>
