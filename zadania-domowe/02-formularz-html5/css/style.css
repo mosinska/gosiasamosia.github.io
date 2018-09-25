@@ -1,0 +1,31 @@
+body {
+    background-color: lightgrey;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+h1 {
+    color: white;
+}
+
+form label,
+form textarea,
+input#btn-wyslij,
+label[for="id-zgoda"] {
+    display: block;
+}
+
+label[for="id-zgoda"] {
+    font-size: 8pt;
+}
+
+input#btn-wyslij {
+    color: red;
+}
+
+label[for="id-kobieta"],
+label[for="id-mezczyzna"],
+label[for="id-zgoda"] {
+    display: inline-block;
+}

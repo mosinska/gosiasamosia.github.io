@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Formularz html5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form action="https://formspree.io/m.osinska2017@gmail.com" method="POST">
+       
+         <h1>Zapisz się na szkolenie</h1>
+
+        <label for="id-imie">Imię</label>
+        <input type="text" name="imie" id="id-imie" placeholder="Podaj imię" required>
+
+        <label for="id-nazwisko">Nazwisko</label>
+        <input type="text" name="nazwisko" id="id-nazwisko" placeholder="Podaj nazwisko" required>
+
+        <label for="id-mail">E-Mail</label>
+        <input type="email" name="mail" id="id-mail" placeholder="Podaj e-mail" required>
+
+        <label for="id-tele">Telefon</label>
+        <input type="tel" name="telefon" id="id-tele" placeholder="Podaj numer telefonu" required>
+
+        <p>Miasto</p>
+        <select name="miasto" id="id-miasto" required>
+            <option>Gdańsk</option>
+            <option selected>Gdynia</option>
+            <option>Sopot</option>
+        </select>
+
+
+        <p>Płeć</p>
+
+        <input type="radio" name="plec" id="id-kobieta">
+        <label for="id-kobieta">Kobieta</label>
+
+        <input type="radio" name="plec" id="id-mezczyzna"><label for="id-mezczyzna">Mężczyzna</label>
+
+        <label for="id-wiadomosc">Wpisz wiadomość:</label>
+        <textarea name="wiadomosc" id="id-wiadomosc" cols="30" rows="10" placeholder="Nie mam nic więcej do dodania..."></textarea>
+
+        <input type="checkbox" name="zgoda" id="id-zgoda">
+        <label for="id-zgoda">Zgoda na udostępnienie danych osobowych</label>
+
+        <input type="submit" value="Wyślij" id="btn-wyslij">
+    </form>
+
+</body>
+
+</html>
