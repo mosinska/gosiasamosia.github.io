@@ -1,0 +1,48 @@
+div#glowny{
+    width: 632px;
+    height: 632px;
+}
+div.kwadrat {
+    display: inline-block;
+    position:relative;
+    width: 200px;
+	height: 200px;
+    margin: 1px;
+}
+
+div.kolko {
+    position: absolute;
+    width: 100px;
+	height: 100px;
+    border: 1.8px solid black;
+	border-radius: 100%;
+	margin-left: 50px;
+    margin-top:50px;
+}
+.czarny {
+    background-color: black;
+}
+.czerwony {
+    background-color: red;
+}
+.fioletowy {
+    background-color: rgb(129, 0, 127);
+}
+.niebieski {
+    background-color: blue;
+}
+.pomaranczowy {
+    background-color: orange;
+}
+.rozowy {
+    background-color: pink;
+}
+.szary {
+    background-color: grey;
+}
+.zielony {
+    background-color: green;
+}
+.zolty {
+    background-color: yellow;
+}
