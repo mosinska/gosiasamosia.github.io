@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+span#ilcss {
+    color: red;
+}
+
+#ruchomy {
+    position: relative;
+    width: 700px;
+    height: 2.5em;
+    line-height: 2.2em;
+    color: #fff;
+    margin: 0 auto;
+    border: 0px solid #000;
+    font-size: 3.5em;
+    background-color: #000;
+    overflow: hidden;
+}
+
+p.box {
+    display: inline;
+    position: absolute;
+    margin: 0;
+    white-space: nowrap;
+    animation: przesun 11s steps(11) both;
+}
+
+@keyframes przesun {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100%);
+
+    }
+}
+
+ 
+/*PAUZA po najechaniu
+#ruchomy > p:hover {
+    animation-play-state: paused;
+} */
