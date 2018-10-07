@@ -48,3 +48,6 @@ let wyswietlImie = function (imie) {
 let wynikWyswietlImie = wyswietlImie("Krystian");
 
 console.log(wynikWyswietlImie);
+
+/*KAWA*/
+/*function automatZKawa (kawa, mleko, cukier)*/
