@@ -1,0 +1,28 @@
+@mixin super-kwadrat { //@mixin - deklarowanie; @include - wklejanie do css
+    width:200px;
+    height: 200px;
+    background-color: crimson;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+@mixin change-kwadrat($rad, $wid, $hei, $bkg){//constructor klas js
+    border-radius: $rad;
+    width: $wid;
+    height: $hei;
+    background: $bkg;
+}
+
+/*
+@mixin border-radius($radius) {
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+-ms-border-radius: $radius;
+border-radius: $radius;
+}
+.box { @include border-radius(10px); }*/

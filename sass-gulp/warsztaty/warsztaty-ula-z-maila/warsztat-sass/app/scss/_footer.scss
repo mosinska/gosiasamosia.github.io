@@ -1,0 +1,19 @@
+footer {
+    background-color: $gray-color;
+    padding: 50px 0;
+    position: relative;
+    bottom: 0;
+
+    .footer-icon {
+        text-align: center;
+
+        i {
+            @include footer-icon;
+            margin-bottom: 20px;
+        }
+
+        .email, .call {
+            color: #fff;
+        }
+    }
+}

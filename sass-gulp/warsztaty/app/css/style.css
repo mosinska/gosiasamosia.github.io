@@ -1,0 +1,75 @@
+/*
+$main-color: gold;
+$nav-bkg: darkgrey;
+*/
+header {
+  color: white; }
+  header .logo i {
+    color: #ecd407;
+    float: left;
+    margin: 10px;
+    font-size: 30px; }
+  header .contact i {
+    color: #292929;
+    float: left;
+    margin: 10px;
+    font-size: 30px; }
+  header .contact .call {
+    font-size: 12px;
+    margin: 0px; }
+  header .contact .phone {
+    margin: 0px; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #001d8a; }
+
+p {
+  color: white; }
+
+body {
+  position: relative;
+  background: url(../../img/background.jpg);
+  position: sticky;
+  color: white; }
+
+nav div a i {
+  color: gold;
+  size: 21px;
+  margin: 10px; }
+
+nav {
+  position: absolute; }
+
+.txtgold {
+  color: gold; }
+
+.bggold {
+  background-color: gold; }
+
+fieldset {
+  background-color: navy;
+  padding: 25px; }
+
+h2 {
+  text-align: justify; }
+
+textarea,
+input {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  border: 0 solid; }
+
+#join .content-holder {
+  padding-top: 120px; }
+
+#join .content-holder h2 {
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 700; }
+
+#join .content-holder p {
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 30px; }

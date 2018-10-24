@@ -1,0 +1,31 @@
+/*
+@mixin border-radius($radius) {
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+-ms-border-radius: $radius;
+border-radius: $radius;
+}
+.box { @include border-radius(10px); }*/
+div.kwadrat {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-top: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  width: 400px;
+  height: 500px;
+  background: red; }
+
+body {
+  background-color: gold; }
+
+nav {
+  background-color: darkgrey; }
+  nav ul li {
+    color: gold; }

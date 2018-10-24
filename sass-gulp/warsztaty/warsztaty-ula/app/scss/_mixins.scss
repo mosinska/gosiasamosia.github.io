@@ -1,0 +1,12 @@
+@mixin header-icon {
+    float: left;
+    margin: 10px;
+    font-size: 30px;
+}
+
+@mixin submit-btn {
+    font-weight: 700;
+    border: 0 solid;
+    background-color: $orange-color;
+    transition: all .3s;
+}

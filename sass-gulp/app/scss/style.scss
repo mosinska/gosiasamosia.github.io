@@ -1,0 +1,32 @@
+@import "zmienne";
+
+//@import...plik ma dostęp !TYLKO! do powyższego pliku !!
+//@import...
+
+//@mixin super-kwadrat { //@mixin - deklarowanie; @include - wklejanie
+
+@import "mixins";
+
+div.kwadrat{
+    @include super-kwadrat;    //bez dwukropka
+    @include change-kwadrat(50%, 400px, 500px, red);
+}
+
+body{
+    background-color: $main-color;
+}
+
+nav {
+    background-color: $nav-bkg;
+    
+    ul {
+        
+        li {
+        color: gold;
+        }
+    }
+}
+
+//orchid
+//darkorchid
+

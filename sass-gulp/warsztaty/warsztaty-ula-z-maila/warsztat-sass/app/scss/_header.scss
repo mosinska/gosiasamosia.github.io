@@ -1,0 +1,28 @@
+header {
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 120px;
+    
+    .logo i {
+        color: $orange-color;
+        @include header-icon;
+    }
+    
+    .contact {
+        i {
+            @include header-icon;
+        }
+        
+        .call {
+            font-size: 12px;
+            margin: 0;
+        }
+        
+        .phone {
+            margin: 0;
+        }
+    }
+}
+
+
+

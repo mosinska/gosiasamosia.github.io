@@ -1,0 +1,38 @@
+#form-section {
+    background-image: url(../img/background.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    
+    h3 {
+        color: #fff;
+    }
+    
+    form {
+        padding: 20px;
+        background-color: $main-color;
+        
+        input:not([type="submit"]), 
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        input[type="submit"] {
+            @include submit-btn;
+            
+            &:hover {
+                background-color: #fff;  
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+
+
+

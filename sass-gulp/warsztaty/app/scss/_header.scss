@@ -1,0 +1,23 @@
+header {
+    color: white;
+
+    .logo i {
+        color: $orange-color;
+        @include header-icon;
+
+    }
+
+    .contact {
+        i {
+            color: $gray-color;
+            @include header-icon;
+        }
+        .call {
+            font-size: 12px;
+            margin:0px;
+        }
+        .phone {
+            margin:0px;
+        }
+    }
+}

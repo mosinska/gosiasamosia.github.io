@@ -1,0 +1,76 @@
+body {
+  font-family: "Open sans", sans-serif; }
+
+p, h2 {
+  color: #fff; }
+
+.yellow {
+  color: #ecd407; }
+
+header {
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 120px; }
+  header .logo i {
+    color: #ecd407;
+    float: left;
+    line-height: 48px;
+    font-size: 2em;
+    margin-right: 10px; }
+  header .contact i {
+    float: left;
+    line-height: 48px;
+    font-size: 2em;
+    margin-right: 10px; }
+  header .contact .call {
+    font-size: 12px;
+    margin: 0; }
+  header .contact .phone {
+    margin: 0; }
+
+#form-section {
+  background-image: url(../img/background.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh; }
+  #form-section h3 {
+    color: #fff; }
+  #form-section form {
+    padding: 20px;
+    background-color: #001d8a; }
+    #form-section form input:not([type="submit"]),
+    #form-section form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px; }
+    #form-section form input[type="submit"] {
+      border: none;
+      background-color: #ecd407;
+      transition: all .3s;
+      padding: 10px 20px;
+      font-weight: 700; }
+      #form-section form input[type="submit"]:hover {
+        background-color: #fff;
+        cursor: pointer; }
+
+footer {
+  background-color: #292929;
+  padding: 50px 0;
+  position: relative;
+  bottom: 0; }
+  footer .footer-icon {
+    text-align: center; }
+    footer .footer-icon i {
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-color: #ecd407;
+      position: relative;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      line-height: 50px;
+      margin-bottom: 20px; }
+    footer .footer-icon .email, footer .footer-icon .call {
+      color: #fff; }

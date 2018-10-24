@@ -1,0 +1,13 @@
+//wrzucamy linki (@import) do GENERAL STYLES
+@import "zmienne";
+@import "mixins";
+@import "header";
+
+body{
+    font-family: $main-font;
+    background-color: $main-color;
+}
+
+p {
+    color: white;
+}

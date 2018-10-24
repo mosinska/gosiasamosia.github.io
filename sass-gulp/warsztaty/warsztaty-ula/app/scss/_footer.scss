@@ -1,0 +1,14 @@
+footer {
+    background-color: $grey-color;
+    padding: 50px 0;
+    position: relative;
+    bottom: 0;
+}
+
+i {
+    @include submit-btn;
+    color: black;
+    height: 30px;
+    width: 30px;
+    margin:0 auto;
+}

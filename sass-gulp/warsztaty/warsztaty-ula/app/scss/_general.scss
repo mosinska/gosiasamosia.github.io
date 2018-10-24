@@ -1,0 +1,22 @@
+//wrzucamy linki (@import) do GENERAL STYLES
+@import "zmienne";
+@import "mixins";
+
+
+body {
+    font-family: $main-font;
+    background-color: $main-color;
+    background: url(../../img/background.png);
+    color: white;
+    position: top;
+/*    background-size: cover;*/
+    background-repeat: no-repeat;
+}
+
+p {
+    color: white;
+}
+
+.yellow{
+    color: $orange-color;
+}

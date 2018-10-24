@@ -1,0 +1,40 @@
+#form-section {
+
+    margin-top: 100px;
+
+    form {
+        padding: 20px;
+        /*background-color: $main-color;*/
+
+        h4 {
+            margin-top: 10px;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        fieldset {
+            background-color: navy;
+            padding: 25px;
+
+            h2 {
+                text-align: justify;
+            }
+
+            textarea,
+            input:not([type="submit"]) {
+
+                width: 100%;
+                margin-bottom: 25px;
+                padding: 10px 20px;
+                border: 0 solid;
+
+            }
+
+            input[type="submit"] {
+                @include submit-btn;
+                height: 4em;
+                width: 6em;
+            }
+        }
+    }
+}
