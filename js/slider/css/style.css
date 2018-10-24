@@ -1,0 +1,53 @@
+html, body, figure, figcaption {
+    margin: 0;
+    border: 0;
+}
+
+#slider {
+	position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+.slide-show, .single-slide {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.single-slide img {
+   width: 100%;
+    height: 100%;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    z-index: 3;
+    font-size: 9em;
+    color: rgba(255,255,255,0.5);
+    background: transparent;
+    border: 0 solid transparent;
+    outline: 0;
+
+}
+
+.slider-nav-next {
+    left: auto;
+    right: 30px;
+}
+
+.slide-caption {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 3.5 rem;
+    color: #fff;
+    z-index: 3;
+}
