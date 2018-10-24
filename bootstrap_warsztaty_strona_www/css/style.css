@@ -1,0 +1,263 @@
+/*Dodatkowy OPIS do projektu:
+• Czcionka: Raleway (Google Font)
+Wielkości czcionek:
+• Główny nagłówek: 36px
+• Paragraf pod głównym nagłówkiem: 18px
+• Teksty w formularzu: 15px
+Pozstałe wielkości fontów
+standardowe dla Bootstrapa
+Grafiki do projektu dostępne są pod linkiem:
+• https://akademia108.pl/kurs-front-end/form-background.jpg
+Zadanie domowe wykonujemy przy użyciu GitHub Pages.
+Kolory czcionek:
+• Główny nagłówek, nagłówek formularza, buttony: #fff
+• Tekst w menu, teksty w formularzu, paragraf pod
+głównym nagłówkiem: #c2c2c2
+• Pozostałe nagłówki: #000
+• Teksty w w sekcjach na jasnym tle: #888
+• Linki: #e38f42
+• Hover w menu: #fff;
+Kolory tła:
+• Menu: #444
+• Buttony: #e38f42
+• Formularz: rgba(0, 0, 0, 0.3)
+• Nagłówek formularza: rgba(0, 0, 0, 0.35)
+• Footer: #f8f8f8*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+
+}
+.txt-dark{
+    color: #000;
+}
+.footer-bkg{
+    background-color: #eee;
+}
+
+input,
+textarea {
+    display: block;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/*.div-tlo {
+    margin: 0 auto;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../img/form-background.jpg);
+    background-position: top;
+    background-size: cover;
+}*/
+/*form {
+    margin-top: 2rem;
+}*/
+#join {
+    height: 100%;
+    background-image: url(../img/form-background.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+#join form header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    margin: 0;
+}
+
+#join form header i {
+    color: #c2c2c2;
+    opacity: 0.8;
+    font-size: 3.5rem;
+}
+
+#join form fieldset{
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 25px;
+    margin: 0 ;    
+}
+
+#join form fieldset input,
+#join form fieldset textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border:0 solid;
+}
+
+/*#join .content-holder > p pobieram pierwsze (dziecko) p */ 
+#join .content-holder {
+    padding-top: 120px;
+}
+
+#join .content-holder h2{
+	margin-top: 10px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#join .content-holder p{
+    font-size: 18px;
+    margin: 20px 0; 
+    /*top botom 20 right left 0*/
+    
+    line-height: 30px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 0 solid;
+    color: #fff;
+}
+
+.btn-gray {
+    background-color: rgba(0,0,0,0.35); 
+}
+.btn-gray:hover {
+    background-color: rgba(0,0,0,0.35); 
+    opacity: 0.8;
+}
+
+.btn-orange {
+    background-color: #e38f42; 
+}
+.btn-orange:hover {
+    color: #fff;
+    background-color: #e38f42; 
+    opacity: 0.8;
+}
+
+a {
+    color: #e38f42;
+    transition: all .4s;
+}
+
+a:hover {
+    color: #e38f42;
+    transition: all .4s;
+}
+
+#menu {
+    color: #c2c2c2;
+
+}
+
+.menu-tlo {
+    background-color: #444;
+}
+
+#menu a {
+
+    color: #c2c2c2;
+}
+
+#menu li {
+
+    color: #c2c2c2;
+}
+
+.margin-left {
+    padding-left: 17vw;
+}
+
+.margin-right {
+    padding-right: 17vw;
+}
+
+.menu:hover {
+    color: #fff;
+}
+
+.menu-left {
+    width: 100%;
+}
+
+/*.main-header {
+    font-size: 36px;
+    color: #fff;
+
+}*/
+
+/*
+.main-bkg {
+    margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+*/
+
+.body-header {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.other-header {
+    color: #000;
+}
+
+.par-header {
+    font-size: 18px;
+    color: #c2c2c2;
+}
+
+.form {
+    font-size: 15px;
+    color: #c2c2c2;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*.btn,
+.btn:hover {
+    color: #fff;
+    background-color: #e38f42;
+}*/
+
+.footer {
+    background-color: #f8f8f8;
+}
+
+/*
+div{
+    height: 100px;
+}
+*/
+/*
+
+div1 {
+    position: absolute;
+}
+
+div2 {
+    position: relative;
+}
+*/
+
+/*w container fluid umieszczamy nawigacje*/
+/*
+.custom-container-fluid {
+    background-color: navy;
+}
+*/
+
+/*w custom coś co bedzie bardziej ściśnięte*/
+/*
+.custom-container {
+    background-color: transparent;
+}
+
+.custom-container .custom-column {
+        background-color: lightblue;
+}
+
+.custom-container .custom-column:nth-child(2n) {
+      background-color: aliceblue;
+}
+*/

@@ -1,0 +1,31 @@
+/*
+div{
+    height: 100px;
+}
+*/
+
+div1{
+    position:absolute;
+}
+
+div2{
+    position:relative;
+}
+
+/*w container fluid umieszczamy nawigacje*/
+.custom-container-fluid{
+    background-color: navy;
+}
+
+/*w custom coś co bedzie bardziej ściśnięte*/
+.custom-container{
+    background-color: red;
+}
+
+.custom-container .custom-column {
+	background-color: lightblue;
+}
+
+.custom-container .custom-column:nth-child(2n) {
+    background-color: aliceblue;
+}
