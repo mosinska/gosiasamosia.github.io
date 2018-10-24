@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+.content-item {
+    padding: 20px;
+    border-bottom: 1px dotted #000;
+    }
