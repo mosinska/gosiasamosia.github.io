@@ -1,0 +1,28 @@
+Pobierz paczkê dostêpn¹ pod linkiem: http://akademia108.pl/kurs-front-end/projekt-sass.zip
+
+Twoim zadaniem jest wprowadzenie modyfikacji zgodnie z poni¿sz¹ specyfikacj¹ i za³¹czonym podgl¹dem:
+
+Kolory:
+- buttony, linki, ikony - #a5e200, rgb(165,226,0)
+- buttony, linki, ikony (hover) - #88ba00, rgb(136,186,0)
+- t³o górnego paska, sekcji "counter-services" i "team" - #f0f4dc
+
+Czcionki:
+- nag³ówki: "Archivo Black" 
+- pozosta³y tekst: "Raleway"
+
+Nag³ówek h1:
+- wielkoœæ czcionki: 66px
+
+Button pod nag³ówkiem h1 ("View more"):
+- wielkoœæ czcionki: 26px
+- wy¿ej o 24px
+
+Ikony w sekcji "about":
+- wysokoœæ i szerokoœæ - 96px
+
+Uwagi:
+- zmian dokonuj wy³¹cznie w plikach .scss (nie wprowadzaj zmian w plikach .html ani .css)
+- czcionki importujemy w pliku .scss (z Google Fonts)
+
+Zadanie domowe nale¿y oddaæ za pomoc¹ GitHub Pages. Wgrywamy do repozytorium jedynie zawartoœæ folderu "app", nie wgrywaj folderu "node_modules"!
