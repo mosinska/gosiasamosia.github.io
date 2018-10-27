@@ -1,31 +1,25 @@
 body {
-    background-color: lightgrey;
-    font-family: Tahoma;
+    background-color: white;
+    font-family: Verdana;
     font-size: 12px;
-    line-height: 25px;
 }
 
-h1 {
-    color: white;
+.main-header {
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    background: url(../img/header.jpg) no-repeat center center;
+    background-size: cover;
+
 }
 
-form label,
-form textarea,
-input#btn-wyslij,
-label[for="id-zgoda"] {
-    display: block;
-}
-
-label[for="id-zgoda"] {
-    font-size: 8pt;
-}
-
-input#btn-wyslij {
-    color: red;
-}
-
-label[for="id-kobieta"],
-label[for="id-mezczyzna"],
-label[for="id-zgoda"] {
-    display: inline-block;
+.main-header-div {
+    color: #333;
+    text-align: bottom;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* flex-wrap: wrap; */
 }
