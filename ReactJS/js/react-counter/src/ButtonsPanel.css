@@ -1,0 +1,25 @@
+.counter {
+    border: 1px solid darkblue;
+    padding: 30px;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin: 30px auto;
+   }
+   .counter span.value {
+    margin-left: 10px;
+    font-size: 18px;
+    color: red;
+   }
+   .counter button {
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 1px solid #0066FF;
+   }
+   .counter button:hover {
+    background-color: #003399;
+    border: 1px solid #003399;
+    cursor: pointer;
+   }
