@@ -1,6 +1,7 @@
 let tablica = ["Monika", "Łukasz", "Konrad"]; 
 console.log(tablica);
 
+
 tablica[0] = "Karolina";
 
 tablica.push("Ewa"); //dodaje na koncu element
