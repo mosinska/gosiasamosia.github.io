@@ -4,9 +4,9 @@ import './Counter.css';
 class Step extends Component {
     render() {
       return (
-      
-        <div id="tytul"> <h3>Krok:</h3> </div> 
-        // {/*count: this.state.count + 1*/}
+      Step
+        // <div id="tytul"> <h3>Krok:</h3> </div> 
+        // // {/*count: this.state.count + 1*/}
         
       );
     }

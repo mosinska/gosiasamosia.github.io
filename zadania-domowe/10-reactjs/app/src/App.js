@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter';
+// import Counter from './Counter';
+import Rodzic from './rodzic.js';
 
 class App extends Component {
   render() {
@@ -13,12 +14,12 @@ class App extends Component {
             {/* Edit <code>src/App.js</code> and save to reload. */}
           </h1>
         </header>
+        <Rodzic></Rodzic>
+        {/* <Counter initValue="0">
         
-        <Counter initValue="0">
         
         
-        
-        </Counter>
+        </Counter> */}
 
       </div>
     );

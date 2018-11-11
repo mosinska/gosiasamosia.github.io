@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 import './Counter.css';
-// import Display from  './Display';
-// import ButtonsPanel from  './ButtonsPanel';
-// import Step from './Step';
+import Display from  './Display';
+import ButtonsPanel from  './ButtonsPanel';
+import Step from './Step';
 
 class Counter extends Component {
+    //class Counter extends React.Component{}
+
+    // constructor(props) {
+    //     super(props);
+
+    //     this.state.count = {
+    //         id: this.state.count + 5
+    //     }
+    // }
+
     // incrementCount: function(){
     //     this.setState({
     //         count: this.state.count + 5
@@ -35,7 +45,7 @@ class Counter extends Component {
                     </ButtonsPanel>                   
                     
                     <Step stepValue='5' setStep='fn()'>  
-                        <div id="tytul"> <h3>Krok:</h3> </div> 
+                        <div id="tytul"> <h3>Krok:</h3> <input type="number"></input></div> 
                         // {/*count: this.state.count + 1*/}
                     </Step>
                     
