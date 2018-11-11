@@ -1,0 +1,55 @@
+#filter{
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    
+    margin-top: 30px;
+    padding:8px;
+
+    height: 30px;
+    width: 200px;
+  }
+
+.waluta-content
+{
+  list-style-type: none;
+  padding: 10px;
+  /* text-align: center; */
+  float: left;
+
+  background-color: #61dafb;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+.symbol{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.red{
+  font-weight: 900;
+  color: red;
+ 
+}
+.red::before{
+ background: url(angle-down-solid.svg) 7px center no-repeat;
+}
+.green{
+  font-weight: 900;
+  color: green;
+}
+.green::before{
+    background: url(angle-up-solid.svg) 7px center no-repeat;
+
+}
+.blue{
+  font-weight: 900;
+  color: blue;
+}
+.blue::before{
+    background: url(arrows-alt-h-solid.svg) 7px center no-repeat;
+}
+
