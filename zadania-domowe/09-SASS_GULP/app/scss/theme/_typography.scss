@@ -1,5 +1,6 @@
 /***/
 /*==========  6.7 - Typography styles  ==========*/
+$base-font-size: 26px;
 
 #typography {
 	margin-top: $margin-none;
@@ -50,7 +51,7 @@
     	.blockquotes-normal, .blockquotes-source {
 
 			p {
-				font-family: "Lato Italic", Helvetica, sans-serif;
+				font-family: "Raleway", sans-serif;
 				font-size: $base-font-size + 4;
 			}
     	}
