@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!--I love normailize -->
+     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Text+Me+One" rel="stylesheet">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+   
+    <title>Moduł użytkowników</title>
+</head>
+<body>
+    <section id="users">
+<!-- HEADER -->
+        <div id="top">
+            <div id="logo">
+                <!-- <i class="far fa-user-circle"></i> -->
+                <i class="fas fa-user-circle"></i>
+
+            </div>
+            
+            <span id="akademia">Akademia</span>
+        </div>
+
+<!-- SEARCH USER -->
+        <div>
+            <form id="form-search">
+                <input type="search" id="site-search" name="q" aria-label="Search through site content">
+                <button id="btn-search"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+
+<!-- TABLE -->
+        <div class="table">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr class="new-user">
+                        <th class="t-number">1</th>
+                        <td class="t-name">Anna Kowalska</td>
+                        <td class="t-user">Anka</td>
+                        <td class="t-email">a.kowalska@malpa.pl</td>
+                        <td class="t-actions">
+                            <a href=""><i class="fas fa-edit"></i></a>
+                            <a href=""><i class="fas fa-trash-alt"></i></a>
+                        </td>
+                    </tr>
+
+                    <tr class="new-user">
+                        <th class="t-number">2</th>
+                        <td class="t-name">Jan Nowak</td>
+                        <td class="t-user">Janek</td>
+                        <td class="t-email">j.nowak@malpa.pl</td>
+                        <td class="t-actions">
+                            <a href="" class="edit"><i class="fas fa-edit"></i></a>
+                            <a href="" class="delete"><i class="fas fa-trash-alt"></i></a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+<!-- ADD USER -->
+            <button id="btn-add"><i class="fas fa-plus"></i> Add new user</button>
+
+        </div>
+
+    </section>
+</body>
+</html>
