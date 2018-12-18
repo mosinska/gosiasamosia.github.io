@@ -1,0 +1,118 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+} */
+
+body{
+    background-color: #592bb5;
+    font-size: 18px;
+    color: #592bb5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+
+}
+
+#add-new-user-panel{
+    display: block;
+    width: 70%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius:25px;
+
+    /* display: flex;
+    flex-direction: column; */
+    /* align-content: center;
+    justify-content: center; */
+}
+form{
+        /* display: block;
+        margin-inline-start: 20px;
+        margin-inline-end: 20px; */
+        /* padding-block-start: 10px;
+        padding-inline-start: 10px;
+        padding-inline-end: 10px;
+        padding-block-end: 10px; */
+        /* min-inline-size: min-content; */
+}
+
+form>label{
+
+    /* margin-left: 40px; */
+
+}
+label {
+    /* margin: 20px;
+    line-height: 50px;
+    text-align: right;
+    float: left; */
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* #id-name,
+#id-user,
+#id-mail{
+    display: block;
+} */
+
+fieldset {
+    width: 90%;
+    margin: 10px;
+}
+/* fieldset */
+#address div{
+    width: 90%;
+    margin: 5px;
+
+}
+input{
+    width: 200px;
+    height: 20px;
+    /* margin-right: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /* align: right; */
+    float: left;
+}
+/* 
+#id-street,#id-name{
+    display: flex;
+
+    
+} */
+
+div #div-buttons{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    background-color: #592bb5;
+    border: 0px solid;
+    border-radius:25px;
+    font-size: 21px;
+    color: #fff;
+    width: 200px;
+    height: 35px;
+    margin: 30px;    
+}
+
+/* form fieldset input */
+/* /* #id-catch,
+#id-tag,
+label[for="id-catch"],
+label[for="id-tag"]
+{
+   display: flex;
+   /* flex-flow: row; */
+   /* justify-content: flex-end; 
+}*/
+

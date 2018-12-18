@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                 <!--I love normailize -->
+                 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+                
+                <!--Google font-->
+                <link href="https://fonts.googleapis.com/css?family=Nunito|Text+Me+One" rel="stylesheet">
+                <!-- Font Awsome -->
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+                <!--CSS-->
+                <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="css/new_user.css">
+               
+                <title>Moduł użytkowników</title>
+            </head>
+<body>
+
+    <!--input:submit-->
+    <!--input:submit[wyślij]-->
+    <!--form action="https://formspree.io/m.osinska2017@gmail.com" method="POST" -->
+    <div id="add-new-user-panel">
+    
+            <label for="id-name">Name
+
+            </label>
+            <input type="text" name="name" id="id-name" placeholder="Your name" required>
+            
+            <label for="id-user">Username</label>
+            <input type="text" name="user" id="id-user" placeholder="Your username" required>
+            
+            <label for="id-mail">E-mail</label>
+            <input type="email" name="mail" id="id-mail" placeholder="Your email address" required>
+            
+            <fieldset id="address">
+                <legend>Address</legend>
+
+                <div>
+                <label for="id-street">Street</label>
+                <input type="text" name="street" id="id-street" placeholder="Street" required>
+                <label for="id-suite">Suite (No)</label>
+                <input type="text" name="suite" id="id-suite" placeholder="Suite" required>
+                </div>
+                
+                <div>
+                <label for="id-zip">Zip code</label>
+                <input type="number" name="zip" id="id-zip" placeholder="Your zip code" required>
+                <label for="id-city">City</label>
+                <input type="text" name="city" id="id-city" placeholder="Your city" required>
+                </div>
+
+            </fieldset>
+
+<!-- Phone number -->
+            <label for="id-phone">Phone</label>
+            <input type="tel" name="phone" id="id-phone" placeholder="Your phone number" required>
+<!-- Website -->
+            <label for="id-web">Website</label>
+            <input type="url" name="web" id="id-web" placeholder="Your phone web addres" required>
+
+            <fieldset id="company">
+                <legend>Company</legend>
+                <label for="id-comp-name">Company</label>
+                <input type="text" name="comp" id="id-comp-name" placeholder="The name of your company" required>
+                
+                <label for="id-catch">Catch phrase</label>
+                <input type="text" name="catch" id="id-catch" placeholder="Write something about yourself">
+
+                <label for="id-tag">BS (tags)</label>
+                <input type="text" name="tag" id="id-tag" placeholder="Write some #tags" required>
+
+                <!-- <label for="id-color">Fawourite Color</label>
+                <input type="color" name="color" id="id-color" placeholder="" required><br> -->
+
+                
+            </fieldset>
+           <!-- Password: <input type="password" name="pw" pattern=".{6,}" title="Six or more characters"><input type="submit"><br><br> -->
+           
+            <!-- <textarea name="jakistekst" id="id-jakistekst" cols="30" rows="10" placeholder="Wpisz wiadomość..." required></textarea><br> -->
+            <!-- <input type= "checkbox" name="agreement" required>Nie jestem robotem/Jestem człowiekiem<br><br> -->
+
+            <div id="div-buttons">
+            <input type="submit" id="btn=add" value="Add new user" />
+            <input type="submit" id="btn-cancel" value="Cancel" />
+            </div>
+    </div>
+
+
+<!-- add new user?
+
+    <button onclick="myFunction()">Add new user</button>
+
+<script>
+function myFunction() {
+  confirm("Press a button!");
+}
+</script> -->
+
+</body>
+</html>
